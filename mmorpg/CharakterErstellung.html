@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/everything.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/CharakterErstellung.css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script/getSubmittedValues.js"></script>
+    <meta charset="UTF-8">
+    <title>Erstelle deinen Charakter!</title>
+</head>
+    <body>
+
+    <div class="Charaktererstellung">
+        <form action="Game.html">
+            <label>Charakterfarbe :
+                <select name="Farbe" size="10" class="Farbe">
+                    <option class="red" value="red">Rot</option>
+                    <option class="blue" value="blue">Blau</option>
+                    <option class="brown" value="brown">Braun</option>
+                    <option class="yellow" value="yellow">Gelb</option>
+                    <option class="orange" value="peru">Orange</option>
+                    <option class="black" value="black">Schwarz</option>
+                    <option class="white" value="white">Weiß</option>
+                    <option class="purple" value="purple">Lila</option>
+                    <option class="pink" value="deeppink">Pink</option>
+                    <option class="golden" value="lightgoldenrodyellow">Gold</option>
+                </select>
+            </label>
+
+            <label>Wählen Sie ihre Klasse:
+            <select name="Klasse" class="Klasse">
+                <option class="Jaeger" value="hunter">Jäger</option>
+                <option class="Krieger" value="warrior">Krieger</option>
+                <option class="Magier" value="mage">Magier</option>
+                <option class="Druide" value="druid">Druide</option>
+            </select>
+            </label>
+        </form>
+
+        <a href="Game.html"><button id="setValues" >Starte Spiel</button></a>
+    </div>
+    </body>
+
+</html>

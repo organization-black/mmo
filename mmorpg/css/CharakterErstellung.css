@@ -1,0 +1,47 @@
+option.red{
+    background-color: red;
+
+}
+option.white{
+    background-color: white;
+}
+option.black{
+    background-color:black;
+    color: white;
+}
+option.blue{
+    background-color:blue;
+}
+option.brown{
+    background-color:brown;
+}
+option.golden{
+    background-color:lightgoldenrodyellow;
+}
+option.yellow{
+    background-color: yellow;
+}
+option.purple{
+    background-color: purple
+}
+option.orange{
+    background-color: peru;
+}
+option.pink{
+    background-color: deeppink;
+}
+
+select.Farbe{
+    width:200px;
+    margin:3%;
+}
+select.Klasse{
+
+    width:200px;
+    margin: 6%;
+}
+
+.submit{
+
+
+}
